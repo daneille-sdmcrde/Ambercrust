@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -40,7 +40,43 @@
   </nav>
 </header>
 
-<div class="intro-main">
+<main>
+    
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-image" role="img" aria-label="Freshly baked bread and pastries"></div>
+    <div class="hero-shade"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow light">A LITTLE COMFORT, FRESHLY MADE</p>
+      <h1>Good days<br>begin with <em>good pastry.</em></h1>
+      <p class="hero-copy">
+        Thoughtfully crafted pastries and specialty coffee, served in a space
+        made for slowing down, connecting, and feeling at home.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button button-light" href="#menu">Explore our menu →</a>
+        <a class="text-link light-link" href="#story">Get to know us ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-note">
+      <span>01</span> MADE WITH CARE IN DOLOGON, BUKIDNON
+    </div>
+  </section>
+
+
+  <!-- ABOUT / STORY SECTION -->
+  <section class="intro section-pad" id="story">
+    <div class="intro-label">
+      <p class="eyebrow">THE AMBERCRUST STORY</p>
+      <span class="line"></span>
+      <span class="small-index">01 / 04</span>
+    </div>
+
+
+    <div class="intro-main">
       <h2>A warm table.<br>A <em>shared moment.</em></h2>
 
       <div class="intro-text">
@@ -66,5 +102,417 @@
       <span class="photo-caption">A PLACE TO PAUSE AND CONNECT</span>
     </div>
   </section>
-  </body>
+
+
+
+  <!-- MENU SECTION -->
+  <section class="offerings section-pad" id="menu">
+
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">MADE TO BE SAVOURED</p>
+        <h2>Simple pleasures,<br><em>beautifully crafted.</em></h2>
+      </div>
+
+      <p class="section-description">
+        Enjoy freshly prepared pastries and carefully crafted coffee
+        without spending too much. Good food and good coffee should be
+        within everyone's reach.
+      </p>
+    </div>
+
+    <div class="menu-category">
+      <div class="category-heading">
+        <span>01 / FRESHLY BAKED</span>
+        <h3>Pastries & Sweets</h3>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=85" alt="Classic butter croissant">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Classic Butter Croissant</h4>
+              <strong>₱65</strong>
+            </div>
+            <p>Flaky, golden pastry with delicate buttery layers.</p>
+            <span class="allergen-tag">Contains: Wheat / Gluten, Milk</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=800&q=85" alt="Chocolate croissant">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Chocolate Croissant</h4>
+              <strong>₱85</strong>
+            </div>
+            <p>Buttery pastry filled with rich chocolate.</p>
+            <span class="allergen-tag">Contains: Wheat / Gluten, Milk; may contain Soy</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=85" alt="Cinnamon roll">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Cinnamon Roll</h4>
+              <strong>₱75</strong>
+            </div>
+            <p>Soft, sweet roll with cinnamon and sugar.</p>
+            <span class="allergen-tag">Contains: Wheat / Gluten, Milk, Eggs</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1606101208385-1f7c6d4a4f0a?auto=format&fit=crop&w=800&q=85" alt="Banana bread slice">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Banana Bread Slice</h4>
+              <strong>₱55</strong>
+            </div>
+            <p>Moist banana bread with a naturally sweet flavor.</p>
+            <span class="allergen-tag">Contains: Wheat / Gluten, Eggs; Milk depends on recipe</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=85" alt="Chocolate chip cookie">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Chocolate Chip Cookie</h4>
+              <strong>₱45</strong>
+            </div>
+            <p>A freshly baked cookie with chocolate chips.</p>
+            <span class="allergen-tag">Contains: Wheat / Gluten, Milk, Eggs; may contain Soy</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+
+    <div class="menu-category">
+      <div class="category-heading">
+        <span>02 / BREWED WITH CARE</span>
+        <h3>Coffee & Beverages</h3>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=85" alt="Espresso coffee">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Espresso</h4>
+              <strong>₱65</strong>
+            </div>
+            <p>A concentrated shot of freshly extracted coffee.</p>
+            <span class="allergen-tag">Ingredients: Coffee beans; no milk added</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=800&q=85" alt="Americano coffee">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Americano</h4>
+              <strong>₱75</strong>
+            </div>
+            <p>Espresso combined with hot water for a smooth cup.</p>
+            <span class="allergen-tag">Ingredients: Coffee beans and water</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Café latte">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Café Latte</h4>
+              <strong>₱95</strong>
+            </div>
+            <p>Espresso blended with steamed milk.</p>
+            <span class="allergen-tag">Contains: Milk / Dairy</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85" alt="Iced coffee">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Iced Coffee</h4>
+              <strong>₱85</strong>
+            </div>
+            <p>Refreshing chilled coffee served over ice.</p>
+            <span class="allergen-tag">Plain version: Coffee and water; additions may contain Milk or Soy</span>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=85" alt="Cold brew coffee">
+          <div class="menu-item-info">
+            <div class="menu-title">
+              <h4>Cold Brew</h4>
+              <strong>₱95</strong>
+            </div>
+            <p>Slow-steeped coffee served cold and smooth.</p>
+            <span class="allergen-tag">Plain version: Coffee and water</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+
+    <!-- ALLERGEN TRANSPARENCY -->
+    <div class="allergen-section">
+      <div class="allergen-heading">
+        <p class="eyebrow">YOUR SAFETY MATTERS</p>
+        <h3>Know what's <em>in your food.</em></h3>
+        <p>
+          We believe customers should be able to make informed choices.
+          Please review the allergen information and speak with our staff
+          before ordering if you have a food allergy.
+        </p>
+      </div>
+
+      <div class="allergen-list">
+        <div class="allergen-row">
+          <strong>Wheat / Gluten</strong>
+          <span>Commonly found in croissants, cinnamon rolls, banana bread, and cookies.</span>
+        </div>
+
+        <div class="allergen-row">
+          <strong>Milk / Dairy</strong>
+          <span>May be present in butter pastries, chocolate products, and milk-based coffee.</span>
+        </div>
+
+        <div class="allergen-row">
+          <strong>Eggs</strong>
+          <span>May be used in pastry and baked-good recipes.</span>
+        </div>
+
+        <div class="allergen-row">
+          <strong>Soy</strong>
+          <span>May be present in chocolate, certain ingredients, or alternative milk products.</span>
+        </div>
+
+        <div class="allergen-row">
+          <strong>Nuts</strong>
+          <span>Not listed as an intentional ingredient in this sample menu. Cross-contact must still be checked.</span>
+        </div>
+      </div>
+
+      <div class="allergen-warning">
+        <strong>Important allergen notice</strong>
+        <p>
+          Menu allergen details are preliminary and must be confirmed against
+          the actual recipes, ingredient labels, and supplier information.
+          Products may be prepared or handled in shared areas where cross-contact
+          can occur. We cannot guarantee that any item is allergen-free.
+          Please inform our staff about your allergy before placing an order.
+        </p>
+      </div>
+    </div>
+
+    <p class="menu-note">
+      Prices are proposed sample prices in Philippine pesos (₱) and may be
+      adjusted based on actual ingredient and operating costs. Menu ingredients
+      and allergen details must be verified before serving.
+    </p>
+
+  </section>
+
+
+  <!-- BRAND QUOTE -->
+  <section class="quote-band">
+    <div class="quote-mark">“</div>
+    <p>Good pastry. Good coffee.<br><em>A stronger sense of community.</em></p>
+    <span>THE AMBERCRUST WAY</span>
+  </section>
+
+
+  <!-- VALUES SECTION -->
+  <section class="values section-pad" id="values">
+    <div class="section-heading values-heading">
+      <div>
+        <p class="eyebrow">WHAT GUIDES US</p>
+        <h2>Our values,<br><em>in every detail.</em></h2>
+      </div>
+
+      <p class="section-description">
+        The experience matters as much as what is on the table.
+        These principles shape how we serve and how we grow.
+      </p>
+    </div>
+
+    <div class="value-list">
+
+      <article class="value-item">
+        <span class="value-number">01</span>
+        <div>
+          <h3>Integrity & Honesty</h3>
+          <p>
+            Transparent communication, fairness, and accountability in
+            the way we work with customers, staff, and suppliers.
+          </p>
+        </div>
+        <span class="value-symbol">✳</span>
+      </article>
+
+      <article class="value-item">
+        <span class="value-number">02</span>
+        <div>
+          <h3>Quality & Craft</h3>
+          <p>
+            Careful ingredient sourcing, precision baking, proper coffee
+            extraction, and continuous barista training.
+          </p>
+        </div>
+        <span class="value-symbol">✳</span>
+      </article>
+
+      <article class="value-item">
+        <span class="value-number">03</span>
+        <div>
+          <h3>Warmth & Hospitality</h3>
+          <p>
+            Genuine, friendly service that treats guests like neighbors,
+            while respecting every customer's comfort and boundaries.
+          </p>
+        </div>
+        <span class="value-symbol">✳</span>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- SERVICES SECTION -->
+  <section class="services section-pad" id="services">
+    <div class="services-heading">
+      <p class="eyebrow light">MORE THAN A CAFÉ</p>
+      <h2>Room for every<br><em>kind of moment.</em></h2>
+      <p>
+        Whether you're meeting, studying, or checking what goes into
+        your order, Ambercrust is designed with your experience in mind.
+      </p>
+    </div>
+
+    <div class="service-grid">
+
+      <article class="service-card">
+        <span>01</span>
+        <div class="service-icon">◇</div>
+        <h3>Event reservations</h3>
+        <p>
+          A welcoming setting for gatherings and client events,
+          with reservation inquiries given priority.
+        </p>
+        <a href="#visit">Inquire about an event ↗</a>
+      </article>
+
+      <article class="service-card">
+        <span>02</span>
+        <div class="service-icon">✳</div>
+        <h3>Ingredient transparency</h3>
+        <p>
+          Ingredient and allergen information to help customers
+          make informed, safety-conscious choices.
+        </p>
+        <a href="#menu">Review allergen details ↗</a>
+      </article>
+
+      <article class="service-card">
+        <span>03</span>
+        <div class="service-icon">⌂</div>
+        <h3>Student study area</h3>
+        <p>
+          A quiet, private study area designed with university
+          students in mind.
+        </p>
+        <a href="#visit">Ask about the study space ↗</a>
+      </article>
+
+      <article class="service-card">
+        <span>04</span>
+        <div class="service-icon">₱</div>
+        <h3>Price checklist</h3>
+        <p>
+          A convenient way to review product prices before
+          visiting the café.
+        </p>
+        <a href="#menu">View menu prices ↗</a>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- LOCATION SECTION -->
+  <section class="visit section-pad" id="visit">
+    <div class="visit-copy">
+      <p class="eyebrow">COME FIND YOUR CORNER</p>
+      <h2>Your next pause<br>is <em>closer than you think.</em></h2>
+
+      <p>
+        We look forward to welcoming you to Ambercrust.
+        Visit us in Dologon, Maramag, Bukidnon.
+      </p>
+
+      <div class="visit-details">
+        <div>
+          <span class="detail-label">OUR LOCATION</span>
+          <strong>Purok 1, Dologon<br>Maramag, Bukidnon</strong>
+        </div>
+
+        <div>
+          <span class="detail-label">GOOD TO KNOW</span>
+          <strong>For current hours, menu details,<br>and availability, please inquire.</strong>
+        </div>
+      </div>
+
+      <a class="button button-dark"
+         href="https://www.google.com/maps/search/?api=1&query=Purok+1+Dologon+Maramag+Bukidnon"
+         target="_blank" rel="noopener">
+        View location ↗
+      </a>
+    </div>
+
+    <div class="visit-image">
+      <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85" alt="Cozy café interior with warm lighting">
+
+      <div class="image-stamp">
+        <span>AMBERCRUST</span>
+        <strong>Stay a<br>little longer.</strong>
+        <small>PASTRY · COFFEE · COMMUNITY</small>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <a class="brand footer-brand" href="#top">
+    <span class="brand-mark">A<span>.</span></span>
+    <span class="brand-name">AMBERCRUST
+      <small>PASTRY · COFFEE · COMMUNITY</small>
+    </span>
+  </a>
+
+  <p>Made with care. Shared with warmth.</p>
+
+  <a href="#top" class="back-top">BACK TO TOP ↑</a>
+
+  <div class="footer-bottom">
+    <span>© 2026 AMBERCRUST</span>
+    <span>DOLOGON, MARAMAG, BUKIDNON</span>
+    <span>GOOD THINGS ARE BETTER SHARED.</span>
+  </div>
+</footer>
+
+</body>
 </html>
